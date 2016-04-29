@@ -1,0 +1,29 @@
+PODS:
+  - Alamofire (3.3.1)
+  - Firebase (2.5.1)
+  - IQKeyboardManager (4.0.2)
+  - PKHUD (3.1.0)
+  - SDWebImage (3.7.5):
+    - SDWebImage/Core (= 3.7.5)
+  - SDWebImage/Core (3.7.5)
+  - SwiftyJSON (2.3.2)
+
+DEPENDENCIES:
+  - Alamofire
+  - Firebase
+  - IQKeyboardManager
+  - PKHUD
+  - SDWebImage
+  - SwiftyJSON
+
+SPEC CHECKSUMS:
+  Alamofire: 369bc67b6f5ac33ded3648d7bd21c5bfb91c2ecc
+  Firebase: 3565ea88b830f28f2c77ecc524622bc71a20d085
+  IQKeyboardManager: 2341089c4ae25fa2fa82ce356a259fcd267dc6b6
+  PKHUD: 4167eccdb1b3a892fd80ce2b51cb6ba412a889ab
+  SDWebImage: 69c6303e3348fba97e03f65d65d4fbc26740f461
+  SwiftyJSON: 04ccea08915aa0109039157c7974cf0298da292a
+
+PODFILE CHECKSUM: a609c10f984753665febcf424e570df6873cd0cc
+
+COCOAPODS: 1.0.0.beta.8

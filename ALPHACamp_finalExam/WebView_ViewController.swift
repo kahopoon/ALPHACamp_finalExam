@@ -8,28 +8,39 @@
 
 import UIKit
 
-class WebView_ViewController: UIViewController {
-
+class WebView_ViewController: UIViewController, UIWebViewDelegate {
+    
+    @IBOutlet weak var movieWebView: UIWebView!
+    @IBOutlet var activity: UIActivityIndicatorView!
+    @IBOutlet weak var loadingLabel: UILabel!
+    
+    var responseURL:String!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
-    }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+        
+        self.navigationController!.navigationBar.translucent = false
+        
+        let request = NSURLRequest(URL: NSURL(string: responseURL.stringByAddingPercentEncodingWithAllowedCharacters(NSCharacterSet.URLQueryAllowedCharacterSet())!)!)
+        
+        movieWebView.loadRequest(request)
+        movieWebView.delegate = self
+        loadingLabel.hidden = true
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+    func webViewDidStartLoad(webView: UIWebView) {
+        activity.hidden = false
+        activity.startAnimating()
+        loadingLabel.hidden = false
     }
-    */
+    
+    func webViewDidFinishLoad(webView: UIWebView) {
+        activity.hidden = true
+        activity.stopAnimating()
+        loadingLabel.hidden = true
+    }
+    
+    override func viewWillAppear(animated: Bool) {
+    }
 
 }

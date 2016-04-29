@@ -7,3 +7,14 @@
 //
 
 import Foundation
+
+class BookDataInfo {
+    var bookID:String!
+    var bookName:String!
+    var coverImage:String!
+    var bookURL:String!
+    var bookStore:String!
+    var bookPhone:String!
+    var bookDescription:String!
+    var timeStamp:String!
+}

@@ -8,20 +8,42 @@
 
 /* Begin PBXBuildFile section */
 		11064C001CD32BEE00771121 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11064BFF1CD32BEE00771121 /* AppDelegate.swift */; };
-		11064C021CD32BEE00771121 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11064C011CD32BEE00771121 /* ViewController.swift */; };
 		11064C051CD32BEE00771121 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11064C031CD32BEE00771121 /* Main.storyboard */; };
 		11064C071CD32BEE00771121 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11064C061CD32BEE00771121 /* Assets.xcassets */; };
 		11064C0A1CD32BEE00771121 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11064C081CD32BEE00771121 /* LaunchScreen.storyboard */; };
+		114C39371CD34A76008CD88A /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 114C39361CD34A76008CD88A /* APIManager.swift */; };
+		114C39391CD35782008CD88A /* BookDetails_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 114C39381CD35782008CD88A /* BookDetails_ViewController.swift */; };
+		114C393B1CD35CC8008CD88A /* WebView_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 114C393A1CD35CC8008CD88A /* WebView_ViewController.swift */; };
+		114C393D1CD35F5A008CD88A /* MapView_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 114C393C1CD35F5A008CD88A /* MapView_ViewController.swift */; };
+		114C393F1CD35F94008CD88A /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 114C393E1CD35F94008CD88A /* MapKit.framework */; };
+		114C39411CD3660E008CD88A /* BookAdd_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 114C39401CD3660E008CD88A /* BookAdd_ViewController.swift */; };
+		118A152C1CD392E400DD7432 /* PhotoView_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 118A152B1CD392E400DD7432 /* PhotoView_ViewController.swift */; };
+		11B6D7ED1CD32DD900B198C8 /* BookList_TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B6D7EC1CD32DD900B198C8 /* BookList_TableViewController.swift */; };
+		11B6D7EF1CD32DFF00B198C8 /* BookList_TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B6D7EE1CD32DFF00B198C8 /* BookList_TableViewCell.swift */; };
+		11B6D7F11CD331F900B198C8 /* BookDataInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B6D7F01CD331F900B198C8 /* BookDataInfo.swift */; };
+		BECCF429B6143FBBD1DFF42D /* Pods_ALPHACamp_finalExam.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F064F1CA63B7E2801D9E9B2E /* Pods_ALPHACamp_finalExam.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		11064BFC1CD32BEE00771121 /* ALPHACamp_finalExam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ALPHACamp_finalExam.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		11064BFF1CD32BEE00771121 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		11064C011CD32BEE00771121 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		11064C041CD32BEE00771121 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		11064C061CD32BEE00771121 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		11064C091CD32BEE00771121 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		11064C0B1CD32BEE00771121 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		114C39361CD34A76008CD88A /* APIManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		114C39381CD35782008CD88A /* BookDetails_ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookDetails_ViewController.swift; sourceTree = "<group>"; };
+		114C393A1CD35CC8008CD88A /* WebView_ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebView_ViewController.swift; sourceTree = "<group>"; };
+		114C393C1CD35F5A008CD88A /* MapView_ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapView_ViewController.swift; sourceTree = "<group>"; };
+		114C393E1CD35F94008CD88A /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		114C39401CD3660E008CD88A /* BookAdd_ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookAdd_ViewController.swift; sourceTree = "<group>"; };
+		118A152B1CD392E400DD7432 /* PhotoView_ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoView_ViewController.swift; sourceTree = "<group>"; };
+		11B6D7EC1CD32DD900B198C8 /* BookList_TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookList_TableViewController.swift; sourceTree = "<group>"; };
+		11B6D7EE1CD32DFF00B198C8 /* BookList_TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookList_TableViewCell.swift; sourceTree = "<group>"; };
+		11B6D7F01CD331F900B198C8 /* BookDataInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookDataInfo.swift; sourceTree = "<group>"; };
+		DCCAB6F924DDBB39285D13F1 /* Pods-ALPHACamp_finalExam.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ALPHACamp_finalExam.release.xcconfig"; path = "Pods/Target Support Files/Pods-ALPHACamp_finalExam/Pods-ALPHACamp_finalExam.release.xcconfig"; sourceTree = "<group>"; };
+		E9E758989D075692F64E649E /* Pods-ALPHACamp_finalExam.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ALPHACamp_finalExam.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ALPHACamp_finalExam/Pods-ALPHACamp_finalExam.debug.xcconfig"; sourceTree = "<group>"; };
+		F064F1CA63B7E2801D9E9B2E /* Pods_ALPHACamp_finalExam.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ALPHACamp_finalExam.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +51,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				114C393F1CD35F94008CD88A /* MapKit.framework in Frameworks */,
+				BECCF429B6143FBBD1DFF42D /* Pods_ALPHACamp_finalExam.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +64,8 @@
 			children = (
 				11064BFE1CD32BEE00771121 /* ALPHACamp_finalExam */,
 				11064BFD1CD32BEE00771121 /* Products */,
+				61882790404E78F2BA79390F /* Pods */,
+				C88E0DCEDF8B08A4A3EE3C55 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +80,56 @@
 		11064BFE1CD32BEE00771121 /* ALPHACamp_finalExam */ = {
 			isa = PBXGroup;
 			children = (
-				11064BFF1CD32BEE00771121 /* AppDelegate.swift */,
-				11064C011CD32BEE00771121 /* ViewController.swift */,
-				11064C031CD32BEE00771121 /* Main.storyboard */,
 				11064C061CD32BEE00771121 /* Assets.xcassets */,
+				11064BFF1CD32BEE00771121 /* AppDelegate.swift */,
 				11064C081CD32BEE00771121 /* LaunchScreen.storyboard */,
+				11064C031CD32BEE00771121 /* Main.storyboard */,
 				11064C0B1CD32BEE00771121 /* Info.plist */,
+				11B6D7F31CD33D2B00B198C8 /* APICall */,
+				11B6D7F21CD3324000B198C8 /* DataModel */,
+				11B6D7EE1CD32DFF00B198C8 /* BookList_TableViewCell.swift */,
+				11B6D7EC1CD32DD900B198C8 /* BookList_TableViewController.swift */,
+				114C39381CD35782008CD88A /* BookDetails_ViewController.swift */,
+				114C393A1CD35CC8008CD88A /* WebView_ViewController.swift */,
+				114C393C1CD35F5A008CD88A /* MapView_ViewController.swift */,
+				118A152B1CD392E400DD7432 /* PhotoView_ViewController.swift */,
+				114C39401CD3660E008CD88A /* BookAdd_ViewController.swift */,
 			);
 			path = ALPHACamp_finalExam;
+			sourceTree = "<group>";
+		};
+		11B6D7F21CD3324000B198C8 /* DataModel */ = {
+			isa = PBXGroup;
+			children = (
+				11B6D7F01CD331F900B198C8 /* BookDataInfo.swift */,
+			);
+			name = DataModel;
+			sourceTree = "<group>";
+		};
+		11B6D7F31CD33D2B00B198C8 /* APICall */ = {
+			isa = PBXGroup;
+			children = (
+				114C39361CD34A76008CD88A /* APIManager.swift */,
+			);
+			name = APICall;
+			sourceTree = "<group>";
+		};
+		61882790404E78F2BA79390F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E9E758989D075692F64E649E /* Pods-ALPHACamp_finalExam.debug.xcconfig */,
+				DCCAB6F924DDBB39285D13F1 /* Pods-ALPHACamp_finalExam.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C88E0DCEDF8B08A4A3EE3C55 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				114C393E1CD35F94008CD88A /* MapKit.framework */,
+				F064F1CA63B7E2801D9E9B2E /* Pods_ALPHACamp_finalExam.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +139,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 11064C0E1CD32BEE00771121 /* Build configuration list for PBXNativeTarget "ALPHACamp_finalExam" */;
 			buildPhases = (
+				C53E978661F25B37555B11F6 /* 📦 Check Pods Manifest.lock */,
 				11064BF81CD32BEE00771121 /* Sources */,
 				11064BF91CD32BEE00771121 /* Frameworks */,
 				11064BFA1CD32BEE00771121 /* Resources */,
+				8D40F3CBF5491B6D3E075C4C /* 📦 Embed Pods Frameworks */,
+				4B994F7F1C1CC079F0CA4494 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -130,13 +201,69 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4B994F7F1C1CC079F0CA4494 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ALPHACamp_finalExam/Pods-ALPHACamp_finalExam-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8D40F3CBF5491B6D3E075C4C /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ALPHACamp_finalExam/Pods-ALPHACamp_finalExam-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C53E978661F25B37555B11F6 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		11064BF81CD32BEE00771121 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				11064C021CD32BEE00771121 /* ViewController.swift in Sources */,
+				11B6D7EF1CD32DFF00B198C8 /* BookList_TableViewCell.swift in Sources */,
+				11B6D7ED1CD32DD900B198C8 /* BookList_TableViewController.swift in Sources */,
+				114C39411CD3660E008CD88A /* BookAdd_ViewController.swift in Sources */,
+				114C39371CD34A76008CD88A /* APIManager.swift in Sources */,
+				118A152C1CD392E400DD7432 /* PhotoView_ViewController.swift in Sources */,
+				11B6D7F11CD331F900B198C8 /* BookDataInfo.swift in Sources */,
+				114C39391CD35782008CD88A /* BookDetails_ViewController.swift in Sources */,
 				11064C001CD32BEE00771121 /* AppDelegate.swift in Sources */,
+				114C393D1CD35F5A008CD88A /* MapView_ViewController.swift in Sources */,
+				114C393B1CD35CC8008CD88A /* WebView_ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,6 +376,7 @@
 		};
 		11064C0F1CD32BEE00771121 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9E758989D075692F64E649E /* Pods-ALPHACamp_finalExam.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ALPHACamp_finalExam/Info.plist;
@@ -260,6 +388,7 @@
 		};
 		11064C101CD32BEE00771121 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DCCAB6F924DDBB39285D13F1 /* Pods-ALPHACamp_finalExam.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ALPHACamp_finalExam/Info.plist;
@@ -288,6 +417,7 @@
 				11064C101CD32BEE00771121 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

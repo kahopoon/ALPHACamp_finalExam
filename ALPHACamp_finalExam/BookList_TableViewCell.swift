@@ -10,8 +10,19 @@ import UIKit
 
 class BookList_TableViewCell: UITableViewCell {
 
+    @IBOutlet weak var coverImage: UIImageView!
+    @IBOutlet weak var bookName: UILabel!
+    @IBOutlet weak var bookID: UILabel!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
+        
+        // book cover image appearance settings
+        coverImage.layer.cornerRadius = 5
+        coverImage.layer.borderWidth = 1
+        coverImage.layer.borderColor = UIColor.grayColor().CGColor
+        coverImage.layer.masksToBounds = true
+        
         // Initialization code
     }
 

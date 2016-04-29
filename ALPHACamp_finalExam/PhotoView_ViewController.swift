@@ -10,10 +10,13 @@ import UIKit
 
 class PhotoView_ViewController: UIViewController {
 
+    var imageString:String!
+    @IBOutlet weak var coverImage: UIImageView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        coverImage.image = UIImage(data: NSData(base64EncodedString: imageString, options: NSDataBase64DecodingOptions())!)
     }
 
     override func didReceiveMemoryWarning() {
